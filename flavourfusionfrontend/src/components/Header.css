@@ -1,0 +1,51 @@
+
+.Navbar{
+    height: 60px;
+    background-color: #fff !important;
+    /* background-color: #a3a3a3; */
+    /* box-shadow: 1px 1px 5px rgba(0,0,0,0.4); */
+}
+.nav-Link{
+    color:#000!important;
+    /* color:#5252ff!important; */
+    padding: 0 !important;
+}
+.nav-icon-Item{
+    margin-right: 7px;
+    padding: 6px 9px;
+    cursor: pointer;
+    aspect-ratio: 1;
+}
+
+.navbar-brand{
+    font-size: 30px !important;
+}
+.messageCountOnChatIcon{
+    font-size: 0.7rem;
+    width: 13px;
+    left: 16px;
+    top:-5px;
+    color:white;
+}
+.notifcationCountOnNotificationIcon{
+    font-size: 0.7rem;
+    width: 13px;
+    left: 14px;
+    top:-5px;
+    color:white;
+}
+.FoodIcon,.navbar-brand {
+    color:#7878fe;
+    /* color:rgb(188, 93, 188) ; */
+}
+.nav-icon-Item,.recipeSearchLink{
+    background-color: #dcdcff;
+    position: relative;
+    border-radius: 50%;
+}
+.searchBarHeader{
+    width: 64%;
+}
+.navbar-collapse>ul{
+    width: 38%;
+}

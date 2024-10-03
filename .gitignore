@@ -1,0 +1,7 @@
+/Back-end/node_modules
+/flavourfusionfronted/node_modules
+/.pnp
+.pnp.js
+/Socket-Server/node_modules
+/Back-end/.env
+/flavourfusionfronted/.env

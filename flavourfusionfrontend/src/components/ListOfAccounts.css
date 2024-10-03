@@ -1,0 +1,39 @@
+.suggestedProfile>img{
+    height: 45px;
+    width: 45px;
+    object-fit: cover;
+}
+.suggestedProfileHomePage>img{
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+}
+.friendsSuggestion{
+    background-color: white;
+    margin-top: 20px;
+    width: 90%;
+    padding: 20px;
+    border-radius: 20px;
+    transition: 0.2s ease-in;
+}
+
+.personAddIcon{
+    background-color: #e9ffff;
+    color: #1976d2;
+    padding: 1px;
+}
+.followerSuggestion{
+    width: 85%;
+    height: 387px;
+    overflow-y: auto;
+}
+::-webkit-scrollbar{
+    width: 6.5px;
+}
+::-webkit-scrollbar-track {
+    background: white;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 2px;
+  }

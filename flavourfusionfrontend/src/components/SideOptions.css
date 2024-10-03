@@ -1,0 +1,24 @@
+.sideOptionsWrapper{
+    width: 90%;
+    height: 250px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+    transition: 0.2s ease-in;
+}
+
+.sideOptionsBox{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 95%;
+    height: 15%;
+    border-radius: 20px;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    margin:13px 0px;
+}
+.sideOptionsIcons{
+    margin-right: 13px;
+}

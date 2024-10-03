@@ -1,0 +1,89 @@
+.share{
+    width: 95%;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 20px 20px;
+    background-color: white;
+    transition: 0.2s ease-in;
+}
+
+.profileInShare{
+    display: flex;
+    align-items: center;
+    margin: 0 20px 20px 20px;
+}
+
+.profileInShare img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: auto;
+}
+.shareImageWrapper{
+    flex:0.5;
+}
+.shareTextWrapper{
+    flex:5.5;
+}
+.profileInShare span{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.share input{
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 90%;
+    margin: 2px 5%;
+
+}
+.share input:focus{
+   outline: none;
+}
+.share hr{
+    width: 90%;
+    margin: 6px auto;
+}
+.shareIconsWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 94%;
+    margin: auto;
+}
+
+
+/* Icons Styling */
+.ShareIcons{
+   margin-left: auto !important;
+   margin-right: auto !important;
+   display: flex;
+   align-items: center; 
+   cursor: pointer;
+}
+.sharePhotos,.shareEmotions,.shareLocation{
+    font-size: 45px !important;
+}
+.sharePhotos{
+    color: rgb(188, 93, 188);
+}
+.shareEmotions{
+    color: gold;
+}
+.shareLocation{
+    color:rgb(214, 34, 34);
+}
+
+/* image to be uploaded */
+.imageToBeUploaded{
+    width: 90%;
+    height: 300px;
+    object-fit: cover;
+    opacity: 0.7;
+}
+.imageToBeUploadedCloseIcon{
+    cursor: pointer;
+}

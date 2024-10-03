@@ -1,0 +1,48 @@
+.mainContainerDetailedRecipe{
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+
+.detailedRecipe{
+    height: 80vh;
+    z-index: 450;
+   
+}
+.mainContainerDetailedRecipe::before{
+    content: '';
+    position: absolute;
+    z-index: 1;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    background-color: #cfcfcf;
+    opacity: 0.6;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right:0;
+}
+.detailedRecipeImage{
+    object-fit: cover;
+}
+.detailedRecipeImageAndContent{
+    height: 80vh;
+    overflow-y: scroll;
+    z-index: 555;
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+}
+.closeButtonDetailedRecipe{
+    font-size: 1.2rem;
+    cursor: pointer;
+    top: -10px;
+    right: 0;
+}
+.detailedRecipeImageHeight{
+    height: 250px;
+    object-fit: cover;
+}
+
+
